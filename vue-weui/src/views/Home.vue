@@ -24,7 +24,7 @@
     <we-button @click="showActionShert">显示1：{{show1}}</we-button>
     <we-action-sheet v-model="show1" :action="['示例菜单1','示例菜单2','示例菜单3','示例菜单4',]"></we-action-sheet>
 
-    <we-slide v-model="score"></we-slide>
+    <we-slide v-model="score" :max="100"></we-slide>
 
     <br>
     <br>
